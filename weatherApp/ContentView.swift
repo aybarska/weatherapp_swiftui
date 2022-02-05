@@ -3,7 +3,7 @@
 //  weatherApp
 //
 //  Created by Ayberk Mogol on 4.02.2022.
-//
+//  aybarska
 
 import SwiftUI
 
@@ -14,6 +14,15 @@ struct ContentView: View {
             VStack {
                 Text("Istanbul, TR").font(.system(size: 32, weight: .medium, design: .default)).foregroundColor(.white)
                     .padding()
+                VStack(spacing: 10) {
+                    Image(systemName: "cloud.sun.fill").renderingMode(.original)
+                        .resizable()
+                        .frame(width: 180, height: 180)
+                        .aspectRatio(contentMode: .fit)
+                    Text("18 °C")
+                        .font(.system(size: 70, weight: .medium))
+                        .foregroundColor(.white)
+                }
                 Spacer()
             }
         }
