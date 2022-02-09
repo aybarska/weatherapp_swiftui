@@ -23,6 +23,9 @@ struct ContentView: View {
                         .font(.system(size: 70, weight: .medium))
                         .foregroundColor(.white)
                 }
+                HStack {
+                    WheatherDayView()
+                }
                 Spacer()
             }
         }
@@ -32,5 +35,20 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+    }
+}
+
+struct WheatherDayView: View {
+    var body: some View {
+        VStack {
+            Text("Tue").font(.system(size: 16, weight: .medium, design: .default)).foregroundColor(.white)
+            Image(systemName: "cloud.sun.fill").renderingMode(.original)
+                .resizable()
+                .frame(width: 40, height: 40)
+                .aspectRatio(contentMode: .fit)
+            Text("22 °C")
+                .font(.system(size: 28, weight: .medium))
+                .foregroundColor(.white)
+        }
     }
 }
