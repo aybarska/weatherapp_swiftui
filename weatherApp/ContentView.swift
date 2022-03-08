@@ -12,7 +12,7 @@ struct ContentView: View {
         ZStack{
             LinearGradient(gradient: Gradient(colors: [.blue, .white]), startPoint: .topTrailing, endPoint: .bottomTrailing).edgesIgnoringSafeArea(.all)
             VStack {
-                Text("Istanbul, TR").font(.system(size: 32, weight: .medium, design: .default)).foregroundColor(.white)
+                Text("Bursa, TR").font(.system(size: 32, weight: .medium, design: .default)).foregroundColor(.white)
                     .padding()
                 VStack(spacing: 10) {
                     Image(systemName: "cloud.sun.fill").renderingMode(.original)
@@ -46,7 +46,7 @@ struct WheatherDayView: View {
                 .resizable()
                 .frame(width: 40, height: 40)
                 .aspectRatio(contentMode: .fit)
-            Text("22 °C")
+            Text("27 °C")
                 .font(.system(size: 28, weight: .medium))
                 .foregroundColor(.white)
         }
