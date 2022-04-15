@@ -11,6 +11,7 @@
 		98145DCB27AC8A7C000E3B3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98145DCA27AC8A7C000E3B3C /* ContentView.swift */; };
 		98145DCD27AC8A7E000E3B3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98145DCC27AC8A7E000E3B3C /* Assets.xcassets */; };
 		98145DD027AC8A7E000E3B3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98145DCF27AC8A7E000E3B3C /* Preview Assets.xcassets */; };
+		98C7E57928095970006C4EC2 /* button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C7E57828095970006C4EC2 /* button.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		98145DCA27AC8A7C000E3B3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		98145DCC27AC8A7E000E3B3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98145DCF27AC8A7E000E3B3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		98C7E57828095970006C4EC2 /* button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = button.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				98145DCA27AC8A7C000E3B3C /* ContentView.swift */,
 				98145DCC27AC8A7E000E3B3C /* Assets.xcassets */,
 				98145DCE27AC8A7E000E3B3C /* Preview Content */,
+				98C7E57828095970006C4EC2 /* button.swift */,
 			);
 			path = weatherApp;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				98145DCB27AC8A7C000E3B3C /* ContentView.swift in Sources */,
 				98145DC927AC8A7C000E3B3C /* weatherAppApp.swift in Sources */,
+				98C7E57928095970006C4EC2 /* button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
