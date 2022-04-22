@@ -34,7 +34,7 @@ struct ContentView: View {
                 Button {
                     GeceModu.toggle()
                 } label: {
-                    TimeButtonView(Baslik: GeceModu ? "Gunduzu goster." : "Geceyi goster.", YaziRengi: .blue, ArkaRenk: .white)
+                    TimeButtonView(Baslik: GeceModu ? "Gündüzü göster." : "Geceyi göster.", YaziRengi: .blue, ArkaRenk: .white)
                 }
                 
                 Spacer()
