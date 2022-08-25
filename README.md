@@ -3,9 +3,9 @@
 A wheather app for learning purposes.  
 
 🎓 Challanges :<br>
-     - Build a modal and refactor HStack with an array.
+     - Build a modal and refactor HStack with an array. +
      <br>
-     - Get real data from a weather API.
+     - Get real data from a weather API. +
      <br>
      - Build a TabBar that shows multiple cities.
 
